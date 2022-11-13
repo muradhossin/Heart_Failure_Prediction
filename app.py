@@ -6,7 +6,7 @@ import streamlit as st
 
 heart_model = pickle.load(open("heart_model.sav", 'rb'))
 
-st.title("Heart Failure Prediction using Machine Learning")
+st.title("Heart Disease Prediction using Machine Learning")
 
 genderList = ['Select gender',0,1]
 ChestPainTypeList = ['Select ChestPainType', 0, 1,2,3]
